@@ -1,0 +1,12 @@
+server:
+  port: 8761
+logging:
+  file: /java/OCP_LOGS/ocp-discovery-server/ocp-discovery-server.log
+info:
+  component: OCP Discovery Server
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
