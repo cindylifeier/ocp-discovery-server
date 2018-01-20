@@ -5,8 +5,13 @@ logging:
 info:
   component: OCP Discovery Server
 eureka:
+  server:
+    enableSelfPreservation: false
   client:
     register-with-eureka: false
     fetch-registry: false
+  instance:
+    hostname: localhost
+
 
 
